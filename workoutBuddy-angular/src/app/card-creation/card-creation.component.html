@@ -1,0 +1,64 @@
+<div class="row">
+  <div class="col-xs-12">
+    <form>
+      <div class="row">
+        <div class="col-sm-2 form-group">
+          <label for="name">Name</label>
+          <input
+          type="text"
+          id="name"
+          class=form-control
+          #nameInput>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 form-group">
+          <label for="amount">Card Type</label>
+          <input
+          type="text"
+          id="amount"
+          class=form-control
+          #typeInput>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 form-group">
+          <label for="amount">Mana Cost</label>
+          <input
+          type="text"
+          id="amount"
+          class=form-control
+          required='true'
+          #costInput>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 form-group">
+          <label for="amount">Power/Toughness</label>
+          <input
+          type="text"
+          id="amount"
+          class=form-control
+          #toughnessInput>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-2 form-group">
+          <label for="amount">Image Path</label>
+          <input
+          type="text"
+          id="amount"
+          class=form-control
+          #pathInput>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-12">
+          <button class="btn btn-success" type="button"
+          (click)="addButtonClicked(nameInput, typeInput, costInput, toughnessInput, pathInput)">Add</button>
+          <button class="btn btn-danger pull-right" type="button">Remove</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</div>

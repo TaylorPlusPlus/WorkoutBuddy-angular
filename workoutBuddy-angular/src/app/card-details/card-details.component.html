@@ -1,0 +1,62 @@
+<div class="list-group-item clearfix">
+  <div class = "pull-left">
+    <h4 class="list-group-item-heading">{{details.name}}</h4>
+    <p class="list-group-item-text">{{details.cardType}}</p>
+  </div>
+  <span class="pull-right">
+    <img src = "{{details.imagePath}}" alt="" class="img-responsive" style ="max-height: 50px;">
+  </span>
+</div>
+
+<div class="container">
+  <div class="row">
+
+            <div class="col-md-2 form-group" >
+
+              <div class="row">
+                Card Name: {{details.name}}
+              </div>
+              <div class="row">
+                Type: {{details.cardType}}
+              </div>
+              <div class="row">
+                Cost: {{details.manaCost}}
+              </div>
+              <div class="row">
+                Power/Toughness: {{details.powerToughness}}
+              </div>
+
+
+
+
+             </div>
+            <div>
+              <a href="#" class="list-group-item clearfix">
+                    <div class = "pull-left">
+                      <p class="list-group-item-text">{{details.name}}</p>
+
+                    </div>
+                    <div class="pull-right">
+                      <img src = "{{details.imagePath}}" alt="" class="img-responsive pull-right" style ="max-height: 150px;float:right;">
+                    </div>
+              </a>
+            </div>
+   </div>
+
+
+
+<!--
+<div class="row">
+  <div class="col-xs-12">
+    <h1>{{details.cardType}}</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs-12">
+    <img src = "{{details.imagePath}}" alt="noPic" class="img-responsive" style ="max-height: 150px;">
+    <p>{{details.imagePath}} Checkj</p>
+  </div>
+</div>
+
+-->
+
